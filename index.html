@@ -3,18 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <title>Cait's Portfolio</title>
-        <style>
-            /* For width smaller than 400px: */
-            body {
-                background-image: url('background_small.jpg');
-            }
-            
-            /* For width 400px and larger: */
-            @media only screen and (min-device-width: 400px) {
-                body {
-                background-image: url('background_large.jpg');
-                }
-            }
-        </style>
     </head>
+    <body>
+        <picture>
+            <source srcset="background_small".jpg" media="(max-device-width: 400px)">
+            <source srcset="background_large.jpg">
+            <img src="background_large.jpg" alt="Galaxy">
+        </picture>
+    </body>
 </html>
