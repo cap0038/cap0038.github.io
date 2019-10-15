@@ -2,13 +2,68 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
         <title>Cait's Portfolio</title>
+        <style>
+            body {
+                background-image: url(images/background_large.jpg);
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+            @media only screen and (max-width: 767px) {
+                body {
+                    background-image: url(images/background_small.jpg);
+                }
+            }
+        </style>
+        <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.6/css/buttons.dataTables.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <picture>
-            <source srcset="background_small".jpg" media="(max-device-width: 400px)">
-            <source srcset="background_large.jpg">
-            <img src="background_large.jpg" alt="Galaxy">
-        </picture>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 col-md-10 col-lg-12 mx-auto">
+                    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://cap0038.github.io">Cait Potridge</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://cap0038.github.io/about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://cap0038.github.io/education.html">Education</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://cap0038.github.io/work.html">Work</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://cap0038.github.io/contact.html">Contact</a>
+                                </li>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="card">
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
