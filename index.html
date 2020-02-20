@@ -17,6 +17,19 @@
                     background-image: url(images/background_small.jpg);
                 }
             }
+
+            #navbar-primary.navbar-default {
+                background: transparent;
+                border: none;
+            }
+            #navbar-primary.navbar-nav li a { 
+                width: 100%;
+                text-align: center;
+                display: inline-block;
+                float: none;
+                    padding-left: 30px;
+                    padding-right: 30px;
+            }
         </style>
         <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.6/css/buttons.dataTables.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -62,6 +75,28 @@
                             </div>
                         </nav>
                     </div>
+                    <nav id="navbar-primary" class="navbar navbar-default" role="navigation">
+                        <div class="container-fluid">
+                          <!-- Brand and toggle get grouped for better mobile display -->
+                          <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
+                              <span class="sr-only">Toggle navigation</span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                            </button>
+                          </div>
+                          <div class="collapse navbar-collapse" id="navbar-primary-collapse">
+                            <ul class="nav navbar-nav">
+                              <li class="active"><a href="#">Link</a></li>
+                              <li><a href="#">Link</a></li>
+                              <li><a href="#">Link</a></li>
+                              <li><a href="#">Link</a></li>
+                              <li><a href="#">Link</a></li>
+                            </ul>
+                          </div><!-- /.navbar-collapse -->
+                        </div><!-- /.container-fluid -->
+                      </nav>
                 </div>
             </div>
         </div>
